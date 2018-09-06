@@ -22,7 +22,7 @@ async def kimsin(ctx):
     await bot.say("ismim Mikasa senin ismin nedir?")
 @bot.command(pass_context = True)
 async def y(ctx):
-    await bot.say("Yaratıcım Ceyhun onu çok seviyorum")
+    await bot.say("İsmim Mikasa Ceyhun tarafından Python Programlama Dili kullanılarak geliştirildim")
 @bot.command(pass_context =True)
 async def hatun(ctx):
     url1 = ["https://cdn.shopify.com/s/files/1/0733/8367/products/image_e1c64c43-3e03-4228-a99b-bf6ba21595f7_large.jpg?v=1509674266",
