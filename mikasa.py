@@ -4,6 +4,8 @@ from discord.ext import commands
 bot = discord.Client()
 bot_prefix = "!"
 import random
+import os
+
 
 bot = commands.Bot(command_prefix = bot_prefix)
 
@@ -50,7 +52,7 @@ async def soyle(ctx):
 
 
 
-bot.run("NDg3MTc4NzAwNTA1MzUwMTU0.DnKVIg.dP7JmdUaRp2CbL66HfcOoOrV-yY")
+bot.run(os.environ.get('token'))
 
 
 
