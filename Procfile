@@ -1,1 +1,1 @@
-worker: python mikasa.py
+worker: python3 mikasa.py
